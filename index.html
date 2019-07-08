@@ -185,9 +185,161 @@
             <li class="breadcrumb-item active">Les fils d'ariane</li>
           </ol>
         </section>
+
+        <!--Les dropdowns  -->
+        <section class="p-5 text-center">
+          <h1 class="mb-5">Les <b class="text-danger">dropdowns</b></h1>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary">
+              Envoyer
+            </button>
+            <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action<a>
+                  <a class="dropdown-item" href="#">Action<a>
+                      <a class="dropdown-item" href="#">Action<a>
+            </div>
+          </div>
+        </section>
+
+        <!--Les spoilers  -->
+        <section class="p-5 text-center">
+          <h1 class="mb-5">Les <b class="text-danger">spoilers</b></h1>
+
+          <button class="btn btn-primary" data-toggle="collapse" data-target="#spoilerA">
+            Afficher
+          </button>
+
+          <a href="#spoilerB" data-toggle="collapse">
+            Afficher
+          </a>
+
+          <button class="btn btn-primary" data-toggle="collapse" data-target=".spoiler-example">
+            Afficher
+          </button>
+
+          <div id="spoilerA" class="collapse spoiler-example">
+            <div class="card card-body">
+              Le texte du spoiler premier.
+            </div>
+          </div>
+
+          <div id="spoilerB" class="collapse spoiler-example">
+            <div class="card card-body">
+              Le texte du spoiler secondaire.
+            </div>
+          </div>
+        </section>
+
+        <!--Les infobulles  -->
+        <section class="p-5 text-center">
+          <h1 class="mb-5">Les <b class="text-danger">infobulles</b></h1>
+
+          <button class="btn btn-primary" data-toggle="popover" data-placement="top"
+            data-content="La version bêta n'est pas disponible." title="Information">
+            Accéder au site
+          </button>
+
+        </section>
+
+        <!--Les sliders  -->
+        <section class="p-5 text-center">
+          <h1 class="mb-5">Les <b class="text-danger">sliders</b></h1>
+
+          <div class="carousel slide" data-ride="carousel" id="carouselExample">
+
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExample" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ltCMCZy/timelapse-of-the-arc-de-triomphe-with-abstract-saturated-colours_mkxqz_xi__F0000.png"
+                  alt="Arc de triomphe" class="d-block w-100" />
+                <div class="carousel-caption">
+                  <h5>Paris</h5>
+                  <p>Arc de triomphe</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/poster-tour-eiffel-jour-nuit.jpg"
+                  alt="Tour eiffel" class="d-block w-100" />
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" data-slide-to="prev" href="#carouselExample">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" data-slide="next" href="#carouselExample">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div>
+        </section>
+
+        <!-- Les popup -->
+        <section class="p-5 text-center">
+          <h1 class="mb-5">Les <b class="text-danger">popup</b></h1>
+
+          <!-- BUTTON -->
+          <button class="btn btn-primary" data-toggle="modal" data-target="#example">
+            Ouvrir
+          </button>
+
+          <!-- MODAL -->
+          <div class="modal" id="example">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+
+                <!-- HEADER -->
+                <div class="modal-header">
+                  <h5 class="modal-title">Ma fenêtre</h5>
+                  <button class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+
+                <!-- BODY -->
+                <div class="modal-body">
+                  Le texte de la fenêtre.
+                </div>
+
+                <!-- FOOTER -->
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Les grilles -->
+        <section>
+          <h1 class="text-center">Les <span class="text-danger">grilles</span></h1>
+          <div class="container bg-success text-center border border-white">
+            <div class="row">
+              <dvi class="col-sm-12 border border-light">Entete</dvi>
+              <dvi class="col-sm-2 border border-light">Menu</dvi>
+              <dvi class="col-sm-10 border border-light">Section</dvi>
+              <dvi class="col-sm-12 border border-light">Pied de Page</dvi>
+            </div>
+          </div>
+        </section>
   </body>
 
   </html>
+</body>
+
+</html>
 
 
 
